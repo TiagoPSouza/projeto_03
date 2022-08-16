@@ -119,6 +119,8 @@ ul, ol{
 
 }
 
+
+
 .main-header-title{
     font-size: 22px;
     line-height: 1.5;
@@ -147,9 +149,37 @@ ul, ol{
     box-sizing: border-box;
 }
 
-
+.row{
+    overflow: auto;
+}
 
 .col-2{
     width: 50%;
     float: left;
+}
+
+.button-default{
+    background-color: #49b99d;
+    border: 2px solid #49b99d;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+}
+
+.button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+}
+
+.button-default-small{
+    font-size: .6em;
+
+}
+
+.button-default-full{
+    display: block;
+    text-align: center;
 }
