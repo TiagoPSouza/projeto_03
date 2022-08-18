@@ -21,6 +21,10 @@ p{
     margin: 0 0 2em;
 }
 
+img{
+    max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #787878;
     font-weight: normal;
@@ -149,6 +153,11 @@ ul, ol{
     box-sizing: border-box;
 }
 
+.imagem-link{
+    border: 0;
+    
+}
+
 .row{
     overflow: auto;
 }
@@ -185,11 +194,15 @@ input, label, textarea{
     box-sizing: border-box;
 }
 
-input, textarea{
+input, textarea, select{
     background: #eee;
     padding: 5px;
     border-radius: 5px;
     border: 2px solid transparent;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
 }
 
 input:focus, textarea:focus{
