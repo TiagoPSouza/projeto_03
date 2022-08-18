@@ -154,8 +154,52 @@ ul, ol{
 }
 
 .col-2{
-    width: 50%;
+    width: 49%;
     float: left;
+}
+
+.col-2:first-child{
+    margin-right: 1%;
+}
+
+.col-2:last-child{
+    margin-left: 1%;
+}
+
+.col-2-3{
+    width: 65%;
+    float: left;
+    
+}
+
+.col-1-3{
+    width: 32%;
+    float: left;
+    margin-left: 3%;
+    
+}
+
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+input:focus, textarea:focus{
+    border: 2px solid #49bf9d;
+    outline: none;
+}
+
+textarea{
+    padding: 15px;
+    height: 7em;
 }
 
 .button-default{
@@ -166,6 +210,7 @@ ul, ol{
     border-radius: 5px;
     font-size: .8em;
     display: inline-block;
+    width: auto;
 }
 
 .button-default-stroke{
@@ -177,6 +222,10 @@ ul, ol{
 .button-default-small{
     font-size: .6em;
 
+}
+
+.button-default-big{
+    font-size: .9em;
 }
 
 .button-default-full{
