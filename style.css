@@ -153,6 +153,16 @@ ul, ol{
     box-sizing: border-box;
 }
 
+.recent-works-card img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-header-link img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .imagem-link{
     border: 0;
     
@@ -273,4 +283,14 @@ textarea{
 }
 .table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
     border: 1px solid #ddd;
+}
+
+.img-left{
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.img-right{
+    float: right;
+    margin: 0 0 5px 10px;
 }
