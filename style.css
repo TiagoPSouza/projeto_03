@@ -330,3 +330,16 @@ textarea{
     margin: 0 0 5px 10px;
     border-radius: 10%;
 }
+
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    padding: 0 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.main-footer a{
+    border-color: transparent;
+}
