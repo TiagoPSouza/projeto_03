@@ -237,13 +237,28 @@ textarea{
     font-size: .8em;
     display: inline-block;
     width: auto;
+    transition: all 2s;
+    
+}
+
+.button-default:hover{
+    background-color: #2b7057b6;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 .button-default-stroke{
     background-color: white;
     border-color: #efefef;
     color: inherit;
+    
 }
+
+.button-default-stroke:hover{
+    border-color: #49b99d;
+    background: white;
+}
+
 
 .button-default-small{
     font-size: .6em;
